@@ -97,6 +97,7 @@ input[type="textt"]{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     padding-bottom: 3px;
+   border-radius: 10px;
 }
 #submitt{
     height: 30px;
@@ -229,3 +230,4 @@ hr {
   0% { width: 0%; }
   100% { width: 100%; }
 }  
+
