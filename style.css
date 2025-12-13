@@ -1,0 +1,231 @@
+
+ /* .post .follow{
+    color: rgb(255, 17, 0);
+    background-color:rgb(0, 255, 136);
+}
+p+h3{
+    color: darkmagenta;
+}
+.upvote{
+    background-color: rgb(89, 225, 225);
+    color:rgb(223, 5, 5);
+    font-weight: 700;
+    height:33px;
+    width:  150px;
+   padding-right: 20px; 
+   margin-right: -8px;    
+   padding-bottom: 4px; 
+   font-size: 18px;
+    border-radius: 4px;
+}
+
+.upvote+button{
+    color: rgb(0, 0, 0);
+    font-weight:700;
+    background-color: rgb(199, 211, 198);
+    margin-left: -4%;
+    border-radius: 5px;
+}
+
+
+button:hover{
+    background-color: rgb(152, 52, 245);
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+}
+h3:hover{
+    text-decoration: underline wavy;
+}
+
+.gredient:hover{
+    font-family: cursive;
+  background: repeating-linear-gradient(50deg, rgba(160, 32, 32, 0.486), rgb(93, 199, 160));
+
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover{
+  padding: 1%;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 213, 255);
+    border-radius: 7px;
+    font-size: 15px;
+}
+.follow:hover{
+    color: rgb(56, 0, 197);
+}
+ul>li a:hover{
+    text-decoration: none;
+}
+
+h1{
+  color: red;
+border: solid rgb(27, 135, 132);
+border-radius: 20px;
+padding:5px;
+padding-bottom: 7px;
+
+
+}
+body{
+    background-color: rgba(237, 188, 115, 0.893);
+} 
+span ul li{
+  color: crimson;
+} */
+
+
+
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* googel search for this document */
+
+input[type="textt"]{
+    background-color: rgb(234, 219, 219);
+    height: 40px;
+    width:250px;
+    font-size: 22px;
+    margin-left: 242px;
+    margin-bottom: -100px;
+    border: solid;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-bottom: 3px;
+}
+#submitt{
+    height: 30px;
+    width: 85px;
+    font-size: large;
+    margin-left: -40px;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* end of this google search */
+
+
+body {
+  background: linear-gradient(to bottom right, #ffe4c4, #ffb56c);
+  min-height: 100vh;
+}
+
+
+header .gredient {
+  background: linear-gradient(90deg, #ff6633, #ff3300);
+  padding: 20px;
+  color: white;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  animation: fadeSlide 1.5s ease-in-out;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding-top: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: rgb(255, 230, 180);
+  transform: scale(1.1);
+}
+
+
+#login, #signup {
+  padding: 8px 15px;
+  border: none;
+  background-color: white;
+  color: #ff3300;
+  font-weight: bold;
+  border-radius: 6px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#login:hover, #signup:hover {
+  background-color: #ffe6d9;
+  transform: translateY(-3px);
+}
+
+
+input[type="text"], input[type="password"] {
+  padding: 8px;
+  margin: 8px;
+  border-radius: 6px;
+  border: 2px solid #ff9966;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+input:hover {
+  border-color: #ff3300;
+}
+
+
+.post {
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.follow {
+  color: #ff3300;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.follow:hover {
+  color: #cc2200;
+}
+
+
+.upvote {
+  padding: 8px 12px;
+  border: none;
+  background-color: #ff3300;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.upvote:hover {
+  background-color: #cc2200;
+  transform: scale(1.1);
+}
+
+
+hr {
+  border: none;
+  border-top: 3px solid #ff9966;
+  margin: 20px 0;
+  animation: growLine 1s ease;
+}
+
+@keyframes fadeSlide {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes growLine {
+  0% { width: 0%; }
+  100% { width: 100%; }
+}  
